@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    background-color: black;
+    color: white;
+
+    /* para quitar la negrilla de los titulos  */
+    font-weight: normal;
+
+    /* estilo de letra  */
+    font-family: "Anta", sans-serif;
+      
+
+    box-sizing: border-box;
+}
+.titulo{
+    font-size: 34px;
+}
+.headerContent{
+    width: 100vw;
+    height: 100px;
+    /* le da un padding de los laterales  */
+    padding-inline: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px 5px white;
+}
